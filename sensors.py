@@ -1,5 +1,5 @@
 import sensors
-from checks import AgentCheck
+from datadog_checks.base import AgentCheck
 
 class SensorsMon(AgentCheck):
     
