@@ -19,8 +19,8 @@ sudo sensors-detect
 ```
 * Copy over the custom check and check config file to the DataDog agent install directory   
 ```
-cp sensors.yaml /etc/dd-agent/conf.d/
-cp sensors.py /etc/dd-agent/checks.d/
+cp custom_sensors.yaml /etc/dd-agent/conf.d/
+cp custom_sensors.py /etc/dd-agent/checks.d/
 ```
 
 * Restart the Datadog agent
